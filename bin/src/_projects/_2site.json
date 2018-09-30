@@ -1,0 +1,7 @@
+{
+    "title": "This site!",
+    "description": "My personal web site, assembled with Pieceup.js.",
+    "tags": ["Node", "Javascript", "ES6", "HTML", "CSS"],
+    "imgPath": "assets/site.jpg",
+    "link": "https://github.com/alleras/alleras.github.io"
+}

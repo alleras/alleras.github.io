@@ -1,0 +1,7 @@
+{
+    "title": "Advanced Bank Transfer",
+    "description": "A Prestashop module that handles transfers as a payment method.",
+    "tags": ["PHP", "MySQL", "e-Commerce"],
+    "imgPath": "assets/advbt.jpg",
+    "link": "https://github.com/alleras/advbt"
+}

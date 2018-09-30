@@ -18,13 +18,18 @@ window.onload = function () {
     links = document.links;
 
     for (var i = 0; i < links.length; i++) {
+
+        // If the link has no hash
+        if(links[i].href.split('#').length == 1){
+            continue
+        }
+
         links[i].onclick = function () {
             // Animation settings
             var timeInterval = 16.66; // 16.66 ms is the refresh rate at 60 Hz
             var duration = 500;
 
             event.preventDefault()
-            
             // Get the element
             var element = document.getElementById(this.hash.substring(1));
             // Get the current scroll position

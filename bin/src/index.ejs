@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>
-        Agustin Lleras' Personal Site
+        Agustin Lleras
     </title>
     <meta name="description" content="">
     <meta name="author" content="Agustin Lleras">
@@ -15,7 +15,14 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script type="text/javascript" src="assets/js/main.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
 </head>
+
 
 <body>
     <nav class="navbar">
@@ -25,13 +32,13 @@
             </a>
             <ul class="navbar-links">
                 <li class='navbar-item'>
-                    <a href='#'>Home</a>
+                    <a href='#about'>About</a>
                 </li>
                 <li class='navbar-item'>
                     <a href='#projects'>Projects</a>
                 </li>
                 <li class='navbar-item'>
-                    <a href='#about'>About</a>
+                    <a href='#contact'>Contact</a>
                 </li>
                 <div class='clearfix'></div>
             </ul>
@@ -43,7 +50,7 @@
             {MD}
             My full name? **Agustin Lleras**; and yes, you can pronounce it like Augustine.
 
-            I am a super great person with interests in **Node.js** and **front-end** web development.
+            I am a [developer](https://www.github.com/alleras) focused in the areas of **front-end** and **User Experience**, currently located in **Charleston, SC**.
             {/MD}
         </span>
         <hr>
@@ -54,9 +61,11 @@
                 <span class="section-header-text">About me</span>
             </h5>
             <div class="section-content">
-                {MD}This is a paragraph containing **my own information** in short sentences. I am 21 and this is my first attempt at a portfolio website. Many remakes will come, probably, as I'm always hungry for perfection.
+                {MD}
+                Being self taught, programming has been one of the languages I speak since my early adolescence; and enthusiasm has always been present when speaking it. 
 
-                I was born in Venezuela and studied Telecommunications Engineering up until the point I had to leave my country. Pretty cool huh?{/MD}
+                I was born in Venezuela, and studied Telecommunications Engineering until I relocated to the US. I am **constantly striving to improve my methods**, and learning has proved to be a perfect tool to do that; there's no pastime I _enjoy_ better.
+                {/MD}
             </div>
         </section>
         <section id="projects">
@@ -89,6 +98,21 @@
                     </div>
                 <% } %>
             </div>
+        </section>
+        <section id="contact">
+            <h5 class="section-header">
+                <span class="section-header-text">Contact me</span>
+            </h5>
+            <div class="section-content">
+                {MD}
+                Want to know more about me? Check out my [GitHub](https://github.com/alleras) or [send me an email](mailto:lleras.ag@gmail.com).
+
+                {/MD}
+                <span style="color:#b3c3d4; font-size:.8em; margin-top:-5px;">
+                    <i class="fa fa-envelope" aria-hidden="true"></i> lleras.ag@gmail.com
+                </span>
+            </div>
+
         </section>
     </div>
     <a href="#" id="goUpButton">
