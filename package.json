@@ -1,0 +1,28 @@
+{
+  "name": "alleras.github.io",
+  "version": "1.1.2",
+  "description": "My personal web site, made with Pieceup.js... Because why not?",
+  "main": "bin/siteGen.js",
+  "bin": {
+    "alleras.github.io": "siteGen.js"
+  },
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "markdown": "^0.5.0",
+    "pieceup-js": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alleras/alleras.github.io.git"
+  },
+  "author": "Agustin Lleras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alleras/alleras.github.io/issues"
+  },
+  "homepage": "https://github.com/alleras/alleras.github.io#readme"
+}
