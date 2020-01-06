@@ -1,0 +1,7 @@
+{
+    "title": "Itineraries (WIP)",
+    "description": "A tool to better plan trips.",
+    "tags": ["React.js", "Javascript", "Mapbox API"],
+    "imgPath": "assets/itineraries.jpg",
+    "link": "https://alleras.github.io/itineraries"
+}
